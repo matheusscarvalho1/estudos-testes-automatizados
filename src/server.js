@@ -1,7 +1,7 @@
 const cors = require("cors");
 
 const express = require("express"); // Importa o módulo express para criar o servidor
-const routes = require("./routes"); // Importa o arquivo routes.js, onde as rotas da aplicação estão definidas
+const routes = require("./routes/index"); // Importa o arquivo routes.js, onde as rotas da aplicação estão definidas
 
 const app = express(); // Cria uma instância do aplicativo express
 const PORT = 3333; // Define a porta onde o servidor vai escutar as requisições
